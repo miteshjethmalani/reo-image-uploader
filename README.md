@@ -1,4 +1,4 @@
-# vue3-ant-design-starter
+# Reo Image Selector
 
 ## Project setup
 ```
@@ -19,7 +19,4 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 # reo-image-uploader
