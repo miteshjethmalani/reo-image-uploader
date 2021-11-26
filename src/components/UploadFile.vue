@@ -8,7 +8,7 @@
   />
 
   <template :key="file.id" v-for="file in selectedFiles">
-    <div v-html="file.name"></div>
+    <div class="text-ellipsis" v-html="file.name"></div>
   </template>
 </template>
 <script>
@@ -44,3 +44,12 @@ export default {
   },
 };
 </script>
+<style>
+.text-ellipsis {
+  width: 329px;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+</style>
