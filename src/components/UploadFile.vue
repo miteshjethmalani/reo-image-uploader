@@ -8,7 +8,7 @@
   />
 
   <template :key="file.id" v-for="file in selectedFiles">
-    <div class="text-ellipsis" v-html="file.name"></div>
+    <div :title="file.name" class="text-ellipsis" v-html="file.name"></div>
   </template>
 </template>
 <script>
